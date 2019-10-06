@@ -1,0 +1,84 @@
+<table width="100%" border="1" cellspacing="5" cellpadding="5">
+	<tr>
+    <td style="width:20%"><div align="center">
+      <label> Roll Number: <input type="number" name="roll_number[]" style="width:80%"/></label>
+    </div></td>
+
+	    <td><div align="center"> 
+	<select name="subject[]" style="width:95%">
+	  <option value="">Subject</option>
+	  <option value=""></option>
+      </select>
+<br/><br/>
+	  <select name="subject1_marks[]" style="width:95%">
+	  <option value="">Marks</option>
+	  <option value="AB">AB</option>
+	  <?php 
+	  for($z=0;$z<=80;$z++){
+		?>
+			<option value="<?php echo"$z"; ?>"><?php echo"$z"; ?></option>
+		<?php 
+	  }
+	  ?>
+      </select>
+	  </div></td>
+	  
+	      <td><div align="center"> 
+	<select name="subject[]" style="width:95%">
+	  <option value="">Subject</option>
+	  <option value=""></option>
+      </select>
+<br/><br/>
+	 	  <select name="subject1_marks[]" style="width:95%">
+	  <option value="">Marks</option>
+	  <option value="AB">AB</option>
+	  <?php 
+	  for($z=0;$z<=80;$z++){
+		?>
+			<option value="<?php echo"$z"; ?>"><?php echo"$z"; ?></option>
+		<?php 
+	  }
+	  ?>
+      </select>
+	  </div></td>
+	  
+	      <td><div align="center"> 
+	<select name="subject[]" style="width:95%">
+	  <option value="">Subject</option>
+	  <option value=""></option>
+      </select>
+<br/><br/>
+	 	  <select name="subject1_marks[]" style="width:95%">
+	  <option value="">Marks</option>
+	  <option value="AB">AB</option>
+	  <?php 
+	  for($z=0;$z<=80;$z++){
+		?>
+			<option value="<?php echo"$z"; ?>"><?php echo"$z"; ?></option>
+		<?php 
+	  }
+	  ?>
+      </select>
+	  </div></td>
+	  
+	      <td><div align="center"> 
+	<select name="subject[]" style="width:95%">
+	  <option value="">Subject</option>
+	  <option value=""></option>
+      </select>
+<br/><br/>
+	 	  <select name="subject1_marks[]" style="width:95%">
+	  <option value="">Marks</option>
+	  <option value="AB">AB</option>
+	  <?php 
+	  for($z=0;$z<=80;$z++){
+		?>
+			<option value="<?php echo"$z"; ?>"><?php echo"$z"; ?></option>
+		<?php 
+	  }
+	  ?>
+      </select>
+	  </div></td>
+  </tr>
+</table>
+
